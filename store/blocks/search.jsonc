@@ -39,7 +39,7 @@
       "filter-navigator.v3"
     ]
   },
-  "flex-layout.col#right": {
+  "flex-layout.col#search": {
     "children": [
       "search-content"
     ]
