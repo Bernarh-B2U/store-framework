@@ -38,5 +38,10 @@
     "children": [
       "filter-navigator.v3"
     ]
+  },
+  "flex-layout.col#right": {
+    "children": [
+      "search-content"
+    ]
   }
  }
