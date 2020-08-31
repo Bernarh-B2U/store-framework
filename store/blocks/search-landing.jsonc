@@ -11,7 +11,7 @@
             "minWidth": "100%"
         }
     },
-    "search-result-layout.customQuery#home": {
+    "search-result-layout.customQuery": {
         "props": {
             "querySchema": {
             "skusFilter": "FIRST_AVAILABLE",
