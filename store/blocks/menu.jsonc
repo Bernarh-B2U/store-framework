@@ -75,9 +75,9 @@
   },
   "vtex.menu@2.x:menu#electronics": {
     "children": [
-        "menu-item#mixers",
-        "menu-item#toasters",
-        "menu-item#coffee"
+        "menu-item#cameras",
+        "menu-item#laptops ",
+        "menu-item#tvs"
     ],
     "props":{
         "orientation": "vertical"
