@@ -1,31 +1,33 @@
 {
     "vtex.menu@2.x:menu#categories": {
-      "children": [
-        "menu-item#major-appliances",
-        "menu-item#small-appliances",
-        "menu-item#electronics"
-      ],
-      "props":{
-        "orientation": "horizontal"
-      }
-  },
-
-  "menu-item#major-appliances": {
-    "props": {
-        "id": "menu-item-category-apparel",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-            "type": "internal",
-            "href": "/major---appliances/",
-            "noFollow": false,
-            "tagTitle": "Major Appliances",
-            "text": "Major Appliances"
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props":{
+            "orientation": "horizontal"
         }
     },
-    "blocks": ["vtex.menu@2.x:submenu#major"]
-  },
+
+
+    "menu-item#major-appliances": {
+        "props": {
+            "id": "menu-item-category-apparel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/major---appliances/",
+                "noFollow": false,
+                "tagTitle": "Major Appliances",
+                "text": "Major Appliances"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#major"]
+    },
+
   "vtex.menu@2.x:submenu#major": {
     "children": [
       "vtex.menu@2.x:menu#major"
@@ -41,7 +43,51 @@
         "orientation": "vertical"
     }
   },
-
+  "menu-item#refrigerators": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#ovens": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#washers": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
 
 
   "menu-item#small-appliances": {
@@ -63,7 +109,6 @@
     }
   },
 
-
   
   "menu-item#electronics": {
     "blocks": ["vtex.menu@2.x:submenu#electronics"]
@@ -76,7 +121,7 @@
   "vtex.menu@2.x:menu#electronics": {
     "children": [
         "menu-item#cameras",
-        "menu-item#laptops ",
+        "menu-item#laptops",
         "menu-item#tvs"
     ],
     "props":{
