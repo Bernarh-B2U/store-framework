@@ -46,7 +46,7 @@
   },
   "menu-item#ovens": {
     "props": {
-      "id": "menu-item-refrigerators",
+      "id": "menu-item-ovens",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -61,7 +61,7 @@
   },
   "menu-item#washers": {
     "props": {
-      "id": "menu-item-refrigerators",
+      "id": "menu-item-washers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -120,7 +120,7 @@
   },
   "menu-item#cameras": {
     "props": {
-      "id": "menu-item-refrigerators",
+      "id": "menu-item-cameras",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -135,7 +135,7 @@
   },
   "menu-item#laptops": {
     "props": {
-      "id": "menu-item-refrigerators",
+      "id": "menu-item-laptops",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -150,7 +150,7 @@
   },
   "menu-item#tvs": {
     "props": {
-      "id": "menu-item-refrigerators",
+      "id": "menu-item-tvs",
       "type": "custom",
       "iconId": null,
       "highlight": false,
