@@ -10,21 +10,7 @@
         }
     },
 
-
     "menu-item#major-appliances": {
-        "props": {
-            "id": "menu-item-category-apparel",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/major---appliances/",
-                "noFollow": false,
-                "tagTitle": "Major Appliances",
-                "text": "Major Appliances"
-            }
-        },
         "blocks": ["vtex.menu@2.x:submenu#major"]
     },
 
@@ -93,11 +79,13 @@
   "menu-item#small-appliances": {
     "blocks": ["vtex.menu@2.x:submenu#small"]
   },
+
   "vtex.menu@2.x:submenu#small": {
     "children": [
       "vtex.menu@2.x:menu#small"
     ]
   },
+
   "vtex.menu@2.x:menu#small": {
     "children": [
         "menu-item#mixers",
@@ -108,8 +96,10 @@
         "orientation": "vertical"
     }
   },
-
   
+
+
+
   "menu-item#electronics": {
     "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
@@ -126,6 +116,51 @@
     ],
     "props":{
         "orientation": "vertical"
+    }
+  },
+  "menu-item#cameras": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#laptops": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-refrigerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
     }
   }
 }
