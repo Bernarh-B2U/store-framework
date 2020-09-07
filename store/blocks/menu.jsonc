@@ -9,7 +9,21 @@
         "orientation": "horizontal"
       }
   },
+
   "menu-item#major-appliances": {
+    "props": {
+        "id": "menu-item-category-apparel",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/major---appliances/",
+            "noFollow": false,
+            "tagTitle": "Major Appliances",
+            "text": "Major Appliances"
+        }
+    },
     "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "vtex.menu@2.x:submenu#major": {
@@ -27,6 +41,7 @@
         "orientation": "vertical"
     }
   },
+
 
 
   "menu-item#small-appliances": {
@@ -48,6 +63,8 @@
     }
   },
 
+
+  
   "menu-item#electronics": {
     "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
